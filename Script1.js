@@ -109,7 +109,7 @@ function whileloop() {
             othercontainer += `<li>${randomnumber1} > ${randomnumber2}</li >`
         }
         else if (randomnumber1 < randomnumber2) {
-            othercontainer += `<li>${randomnumber1} > ${randomnumber2}</li >`
+            othercontainer += `<li>${randomnumber1} < ${randomnumber2}</li >`
         }
         else 
             othercontainer += `<li>WOW ITS EVEN!!!!!!!!!!! ${randomnumber1} = ${randomnumber2}</li >`
